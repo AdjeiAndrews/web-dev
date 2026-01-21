@@ -1,4 +1,29 @@
-p{
-    font-size: 23px;
+* {
+    font-family: monospace;
+}
+
+body {
+    font-size: 18px
+}
+
+
+p {
     color: purple;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold
+}
+
+h1, h2 {
+    color: blue;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
 }
