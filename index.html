@@ -1,0 +1,48 @@
+# web-dev
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+        <body>
+            <h2>CatPhotoApp</h2>
+            <main>
+                <h3>Cat photos</h3>
+                <!--TODO add link to view more photos-->
+                <p>Click <a href="#" target="_blank">here </a> to view more Cat Photos.
+                </p>
+                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ7PMdkS6M8t21JUZR1MIDOnPj2lJeL891Ug&s" alt="a cute orange cat saying hello"></a>
+                <h3><u>Cat Lists</u></h3>
+                <div class="lists">
+                    <p>Cats <em>Love</em>:</p>
+                    <ul>
+                        <li>MyLady</li>
+                        <li>Polycarp</li>
+                        <li>Merlin</li>
+                    </ul>
+                    <img src="Bee.jpg" alt="MyLady">
+                    <p>Cats <strong>Hate:</strong></p>
+                    <ol>
+                        <li>Main</li>
+                        <li>Thunder</li>
+                        <li>Flies</li>
+                    </ol>
+                </div>
+                <img src="Main.jpg" alt="Main">
+                <form action="/submit-cat-photo">
+                    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label><br>
+                    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+
+                    <label for="loving"><input id="loving" type="checkbox" name="personality" checked> Loving</label><br>
+                    <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy</label><br>
+                    <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic</label><br>
+
+                    <input type="text" placeholder="cat photo URL" required><br>
+                    <button type="Submit">Submit</button>
+                </form>
+            </main>
+            <footer>
+                <p><small>No Copyright - © 2026 CatPhotoApp</small></p>
+            </footer>
+        </body>
+</html>
