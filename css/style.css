@@ -15,5 +15,15 @@
     padding: 1.5em 2em 3em 4em;
     outline: 5px solid blue;
     outline-offset: -20px;
+}
 
+.circle {
+    margin: 5rem auto;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border-radius: 100px;
+    border: 2px solid #000;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
 }
