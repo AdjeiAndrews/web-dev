@@ -4,22 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    min-height: 100vh;
-}
+.container {
+    border: 10px double red; 
+    font-size: 1.5rem;
+    margin: 1.5em;
+    /*margin-top: 1.5em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;*/
+    padding: 1.5em 2em 3em 4em;
+    outline: 5px solid blue;
+    outline-offset: -20px;
 
-h1 {
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
-}
-
-main {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 2rem;
-    width: 40ch;
 }
