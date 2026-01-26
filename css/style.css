@@ -1,54 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* 
-Typography is the way texts are arranged and presented in a document.
-It includes font choice, size, line height, letter spacing, alignment, and overall readability.
-Good typography enhances user experience and makes content more engaging.
-*/
-
 body {
   padding: 10%;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "width" 100%;
 }
 
-/* input, button {
-    font: inherit;
-} */
-
-/* p {
-    text-decoration: line-through;
+a {
+    color: hsl(207, 44%, 50%);
 }
- */
 
-/*  p { 
-    text-transform: lowercase;
- } */
+a:visited {
+    color: purple;
+}
 
- /* p {
-    text-align: left;
- } */
+a:hover, a:focus {
+    color: hsl(261, 44%, 47%, 0.7); /*opacity 0.7*/ 
+    /* opacity: 0.7; */ /*another to set opacity*/
+    background: gold;
+}
 
- /* p {
-    text-indent: 2em;
- } */
-
- p {
-    line-height: 1.5;
-    letter-spacing: 0.05em;
-    word-spacing: 0.03em;
-    font-weight: 400;
-    font-style: italic;
- }
-
-
-
-
-
+a:active {
+    color: red;
+}
 
 
 
