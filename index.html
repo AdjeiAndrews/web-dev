@@ -3,90 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table in HTML</title>
+    <title>VIDEO TAG</title>
 </head>
-<!-- Adding width expands the table to 100% of its container, cellspacing and cellpadding adds spacing and padding to the data in the table -->
-<table border="1" style="width: 100%" cellspacing="5" cellpadding="10">
-    <thead>
-        <tr>
-            <th> ID </th>
-            <th> Name </th>
-            <th> Age </th>
-            <th> Country </th>
-            
-        </tr>
-        <tbody>
-            <tr>
-                <td> 1 </td>
-                <td> Abigail Appiah</td>
-                <td> 25 </td>
-                <td> USA </td>
-            </tr>
-            <tr>
-                <td> 2 </td>
-                <td> Nadia Acheampong</td>
-                <td> 20 </td>
-                <td> Canada </td>
-            </tr>
-            <tr>
-                <td> 3 </td>
-                <td> Hannah Addai</td>
-                <td> 22 </td>
-                <td> UK </td>
-            </tr>
-            <tr>
-                <td> 4 </td>
-                <td>Alcott Sunkwa</td>
-                <td>73</td>
-                <td>Germany</td>
-            </tr>
-            <tr>
-                <td> 5 </td>
-                <td>Michael Owusu</td>
-                <td>30</td>
-                <td>Ghana</td>
-            </tr>
-            <tr>
-                <td> 6 </td>
-                <td>Sylvia Mensah</td>
-                <td>28</td>
-                <td>Italy</td>
-            </tr>
-            <tr>
-                <td> 7 </td>
-                <td>David Tetteh</td>
-                <td>35</td>
-                <td>France</td>
-            </tr>
-            <tr>
-                <!-- Merging rows -->
-                <td rowspan="2"> 8 </td>
-                <td>Linda Asare</td>
-                <td>27(Single)</td>
-                <td rowspan="2">Spain</td>
-            </tr>
-            <!-- Merging rows: we use rowspan -->
-            <tr>
-               
-                <td>Hagar Twumwaa</td>
-                <td>29(Married)</td>
-                
-            </tr>
-            <!-- Merging columns: we use colspan -->
-             <tr>
-                <td colspan="2"> Comments </td>
-                
-              
-             </tr>
-        </tbody>
-    </thead>
-    <!-- This is a footer: it is used when there are so many data in the table and you do not want to repeat the header or forget the theaders -->
-    <footer>
-         <th> ID </th>
-         <th> Name </th>
-         <th> Age </th>
-         <th> Country </th>
-    </footer>
-</table>
+<body>
+    <!-- Controls enables you to play/pause, volume, and other features -->
+     <!-- Autoplay and muted are used for automatic playback without sound -->
+    <video width="400" controls autoplay muted>
+        <source src="Musk.mp4" type="video/mp4"></source>
+        <!-- You only see this if the video tag is not supported -->
+        Your browser does not support the video tag
+    </video>
 </body>
 </html>
