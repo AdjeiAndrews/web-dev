@@ -3,14 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
+    <title>Table in HTML</title>
 </head>
-<body>
-    <!-- Block-Level tag: They always cover the whole width of the page and leaves a spacing -->
-    <p style="background-color: yellow">This is a simple webpage created using HTML</p>
-    <div style="background-color: green">This is another tag</div>
-
-    <!-- Inline-Level tag:They also cover only the content area but leaves no spacing -->
-     <span style="background-color: magenta;">I am a span tag</span>
+<!-- Adding width expands the table to 100% of its container, cellspacing and cellpadding adds spacing and padding to the data in the table -->
+<table border="1" style="width: 100%" cellspacing="5" cellpadding="10">
+    <thead>
+        <tr>
+            <th> ID </th>
+            <th> Name </th>
+            <th> Age </th>
+            <th> Country </th>
+            
+        </tr>
+        <tbody>
+            <tr>
+                <td> 1 </td>
+                <td> Abigail Appiah</td>
+                <td> 25 </td>
+                <td> USA </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Nadia Acheampong</td>
+                <td> 20 </td>
+                <td> Canada </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Hannah Addai</td>
+                <td> 22 </td>
+                <td> UK </td>
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <td>Alcott Sunkwa</td>
+                <td>73</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td> 5 </td>
+                <td>Michael Owusu</td>
+                <td>30</td>
+                <td>Ghana</td>
+            </tr>
+            <tr>
+                <td> 6 </td>
+                <td>Sylvia Mensah</td>
+                <td>28</td>
+                <td>Italy</td>
+            </tr>
+            <tr>
+                <td> 7 </td>
+                <td>David Tetteh</td>
+                <td>35</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <!-- Merging rows -->
+                <td rowspan="2"> 8 </td>
+                <td>Linda Asare</td>
+                <td>27(Single)</td>
+                <td rowspan="2">Spain</td>
+            </tr>
+            <!-- Merging rows: we use rowspan -->
+            <tr>
+               
+                <td>Hagar Twumwaa</td>
+                <td>29(Married)</td>
+                
+            </tr>
+            <!-- Merging columns: we use colspan -->
+             <tr>
+                <td colspan="2"> Comments </td>
+                
+              
+             </tr>
+        </tbody>
+    </thead>
+    <!-- This is a footer: it is used when there are so many data in the table and you do not want to repeat the header or forget the theaders -->
+    <footer>
+         <th> ID </th>
+         <th> Name </th>
+         <th> Age </th>
+         <th> Country </th>
+    </footer>
+</table>
 </body>
 </html>
