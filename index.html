@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIDEO TAG</title>
+    <title>EMBEDDING A YOUTUBE VIDEO</title>
 </head>
 <body>
-    <!-- Controls enables you to play/pause, volume, and other features -->
-     <!-- Autoplay and muted are used for automatic playback without sound -->
-    <audio width="400" controls autoplay muted>
-        <source src="MARK ANIM.mp3" type="audio/mpeg"></source>
-        <!-- You only see this if the audio tag is not supported -->
-        Your browser does not support the audio tag
-    </audio>
+    <!-- The "embed" is a keyword that tells the browser to embed a Youtube video, NB: It must always be added -->
+    <!-- You should always use a question mark at the end of the link to be able 
+     to add parameters like: autoplay and mute -->
+   <iframe src="https://www.youtube.com/embed/zZrgVG2k8vU?autoplay=1&mute=1" frameborder="0" width="600" height="550"></iframe>
 </body>
 </html>
