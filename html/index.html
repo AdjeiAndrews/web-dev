@@ -3,17 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Border</title>
+    <title>Semantic Tags</title>
+
     <style>
-        p {
-                /* border-style: dashed;
-                border-width: 5px;
-                border-color: red; */
-                border: 5px, dashed, red;
+        html, body{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            text-align: center;
+            padding: 20px;
+            background-color: antiquewhite;
+        }
+        nav{
+            background-color: aqua;
+            padding: 10px;
+            text-align: center;
+        }
+        aside{
+            background-color: rgb(224, 255, 230);
+            width: 20%;
+            height: 600px; 
+            float: left;
+        }
+        section{
+            background-color: cadetblue;
+            width: 80%;
+            height: 600px;
+            float: left;
+            /* padding: 20px; */
+            box-sizing: border-box;
+        }
+        .clear-fix{
+            clear: both;
+        }
+        footer{
+            text-align: center;
+            padding: 20px;
+            background-color: antiquewhite;
         }
     </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolores repellat fugit iure cum aliquid, cupiditate quas veritatis? Dolore, blanditiis?</p>
+    
+    <header>
+        I am a header tag.
+    </header>
+<nav>
+    <a href="">Home</a> |
+    <a href="">About</a> |
+    <a href="">Contact</a> |
+    <a href="">Services</a>
+</nav>
+<aside>
+    This is an aside tag.
+</aside>
+<section>
+    <article>
+        <h3>heading 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit consequuntur natus excepturi quo quisquam dolorum quod eaque voluptatum veritatis!</p>
+        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam alias natus velit, commodi id adipisci a odio culpa ad iste ea laborum architecto nesciunt labore fugiat nulla, doloribus voluptate sint consequatur! Dolor voluptas dignissimos totam quae iste sit. Non, qui?</small>
+    </article>
+    <article>
+        <h3>heading 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit consequuntur natus excepturi quo quisquam dolorum quod eaque voluptatum veritatis!</p>
+        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam alias natus velit, commodi id adipisci a odio culpa ad iste ea laborum architecto nesciunt labore fugiat nulla, doloribus voluptate sint consequatur! Dolor voluptas dignissimos totam quae iste sit. Non, qui?</small>
+    </article>
+    <article>
+        <h3>heading 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit consequuntur natus excepturi quo quisquam dolorum quod eaque voluptatum veritatis!</p>
+        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam alias natus velit, commodi id adipisci a odio culpa ad iste ea laborum architecto nesciunt labore fugiat nulla, doloribus voluptate sint consequatur! Dolor voluptas dignissimos totam quae iste sit. Non, qui?</small>
+    </article>
+    <article>
+        <h3>heading 4</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit consequuntur natus excepturi quo quisquam dolorum quod eaque voluptatum veritatis!</p>
+        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam alias natus velit, commodi id adipisci a odio culpa ad iste ea laborum architecto nesciunt labore fugiat nulla, doloribus voluptate sint consequatur! Dolor voluptas dignissimos totam quae iste sit. Non, qui?</small>
+    </article>
+</section>
+<div class="clear-fix"></div>
+<footer>
+    I am a footer tag.
+</footer>
 </body>
 </html>
