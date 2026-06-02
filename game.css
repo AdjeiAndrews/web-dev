@@ -32,3 +32,31 @@
 .incorrect {
     background-color: #dc3545;
 }
+
+
+/* HUD */
+
+#hud {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+#question {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hud-item {
+    text-align: center;
+}
+
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
