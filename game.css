@@ -33,24 +33,12 @@
     background-color: #dc3545;
 }
 
-
 /* HUD */
 
 #hud {
     display: flex;
-    margin-bottom: 2rem;
     justify-content: space-between;
 }
-
-#question {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.hud-item {
-    text-align: center;
-}
-
 
 .hud-prefix {
     text-align: center;
@@ -59,4 +47,17 @@
 
 .hud-main-text {
     text-align: center;
+}
+
+#progressBar {
+    width: 35rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 1rem;
+}
+
+#progressBarFull {
+    height: 3.4rem;
+    background-color: #56a5eb;
+    width: 100%;
 }
